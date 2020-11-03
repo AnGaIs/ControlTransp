@@ -1,7 +1,6 @@
-## Laravel admin
+## ConstrolTransp
 
-Painel admin para controle de usuários, gerenciamento de perfis de acesso, permissões, relatórios, indicadores e logs.
-Além desses módulos, já está implementado um sistema de autenticação, cadastro de novos usuários e recuração de senha.
+Sistema de paletização de skus diversificados, criado para atender uma operação logística na cidade de São José dos Campos.
 
 ![img](public/images/laravel.png)
 
@@ -9,12 +8,12 @@ Além desses módulos, já está implementado um sistema de autenticação, cada
 
 - Clone repository
 ```
-$ git clone git@github.com:mffonseca/laravel-admin.git
+$ git@github.com:AnGaIs/ControlTransp.git
 ```
 
 - Access directory
 ```
-$ cd laravel-admin
+$ cd controltransp
 ```
 
 - Copy `.env.example` to `.env` and add your configs
@@ -53,6 +52,3 @@ $ ./vendor/bin/phpunit
 ```
 $ php artisan serve
 ```
-
-- *user: meusistema@rizer.com.br
-- *password: admin
